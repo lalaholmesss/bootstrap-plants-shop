@@ -1,0 +1,60 @@
+
+.footer {
+    background-color: #C1DCDC;
+
+    bottom: 0;
+    padding: 48px 0;
+}
+.footer .footerContent .socialLinks h3 {
+    font-size: 24px;
+    font-family: 'Abril Fatface';
+    
+}
+.footer .footerContent .socialLinks {
+    max-width: 192px;
+    padding: 0;
+}
+
+.footer .footerContent .socialLinks p {
+    padding: 24px 0;
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: rgba(0, 0, 0, 0.5);
+    word-wrap: break-word;
+}
+
+.footer .footerContent .socialLinks img {
+    
+    cursor: pointer;
+    padding-right: 12px;
+    padding-bottom: 102px;
+}
+
+.footer  .footerContent .information {
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-right: 48px;
+    padding-left: 300px;
+}
+
+.footer .footerContent .information li{
+    padding-bottom: 24px;
+}
+
+.footer .footerContent .information li:first-child{
+    font-weight: bold;
+    color: rgb(0, 0 ,0);
+}
+
+.footer  .footerContent .information ::marker{
+    content: none;
+}
+
+.footer p {
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0;
+
+}

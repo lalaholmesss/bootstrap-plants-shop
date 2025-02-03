@@ -1,0 +1,48 @@
+
+.mainContainer {
+    padding-bottom: 114px;
+    font-family: 'Poppins';
+} 
+
+
+
+.mainContainer .columnOne h2 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.mainContainer .columnOne p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 12px 0 24px 0 ;
+}
+
+.mainContainer .columnOne button {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    padding: 12px 24px;
+    background-color: #C1DCDC;
+    border: none;;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.mainContainer .columnOne button:hover {
+    background-color: #d0e0e0;
+}
+
+.mainContainer .plantsInfo {
+    margin-left: 60px;
+    margin-right: 80px;
+}
+
+.mainContainer .plantsInfo h5 {
+    font-size: 18px;
+    padding: 12px 0 7px 0;
+    margin-bottom: 0;
+}
+
+.mainContainer .plantsInfo p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}

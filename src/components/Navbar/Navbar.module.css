@@ -1,0 +1,45 @@
+.navbar {
+    margin: 48px 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .navbar .logoNavbar {
+    font-family: 'Abril Fatface';
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+  }
+  
+  .navbar .navNavbar {
+    color: rgba(30, 30, 30, 0.5);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins';
+  }
+  
+  .navbar a.navNavbar:hover {
+    color: rgba(30, 30, 30, 1);
+  }
+  
+  .navbar .actionsNavbar {
+    display: flex;
+    gap: 48px;
+  }
+  
+  .navbar .actionsNavbar a:nth-child(2){
+    padding-right: 48px;
+    border-right: 2px solid rgba(30, 30, 30, 0.7);
+  }

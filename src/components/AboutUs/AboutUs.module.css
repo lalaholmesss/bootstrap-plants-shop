@@ -1,0 +1,36 @@
+.mainContainer {
+    margin-bottom: 165px;
+    font-family: 'Poppins';
+}
+
+.aboutUsContainer {
+    text-align: center;
+    flex-direction: column;
+}
+
+.aboutUsContainer h3 {
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+.aboutUsContainer p {
+    padding: 12px 0 48px 0;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.mainContainer .servicesContainer {
+    text-align: center;  
+}
+
+.mainContainer .servicesContainer h4 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 24px 0 12px 0;
+}
+
+.mainContainer .servicesContainer p {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}

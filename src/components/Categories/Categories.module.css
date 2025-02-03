@@ -1,0 +1,58 @@
+.mainContainer {
+    text-align: center;
+    margin-bottom: 96px;
+    font-family: 'Poppins';
+}
+
+.mainContainer h1 {
+    font-size: 32px;
+    font-weight: bold;
+} 
+
+.mainContainer p {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 12px;
+    margin-bottom: 96px;
+}
+
+.mainContainerBody {
+    padding-top: 48px;
+    padding-bottom: 96px;
+    background-color: #C1DCDC;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.mainContainer .content h2{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.content p {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 24px;
+}
+
+.mainContainerBody button {
+    margin: auto;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    color: rgba(0, 0, 0, 0.75);
+    background-color: white;
+    cursor: pointer;
+}
+
+.mainContainerBody button:hover {
+    background-color: #eff8f8;
+}
